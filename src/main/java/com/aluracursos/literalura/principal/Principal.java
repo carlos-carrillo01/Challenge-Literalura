@@ -75,6 +75,7 @@ public class Principal {
         Optional<DatosLibros> libroBuscado = buscador.resultado().stream()
                 .filter(l -> l.titulo().toUpperCase().contains(buscaLibro.toUpperCase()))
                 .findFirst();
+        
 
             //Analisa respuesta de consulta. si ecuentra coincidencia lo procesa, 
             //sino informa que no encontro el libro
@@ -110,15 +111,19 @@ public class Principal {
         }
     }
 
+    
+
     private void mostrarLibrosRegistrados(){
         libros = repository.findAll();
         libros.forEach(System.out::println);
     }
+    
 
     private void mostrarAutoresRegistrados(){
         autor = repositoryAutor.findAll();
         autor.forEach(System.out::println);
     }
+    
 
     private void buscarLibrosPorIdioma(){
         System.out.println("""
@@ -132,6 +137,7 @@ public class Principal {
         
         -------------------------------
         """);
+
         scannerSoloNumeros();
         var  numero = teclado.nextInt();
         switch (numero) {
