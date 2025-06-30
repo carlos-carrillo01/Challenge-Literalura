@@ -1,7 +1,5 @@
 package com.aluracursos.literalura.principal;
 
-
-
 import com.aluracursos.literalura.modelos.*;
 import com.aluracursos.literalura.repository.AutorRepository;
 import com.aluracursos.literalura.repository.LibrosRepository;
@@ -21,8 +19,10 @@ public class Principal {
     private AutorRepository repositoryAutor;
     private List<Libros> libros;
     private List<Autor> autor;
+    
 
     public Principal (){}
+    
     public Principal(LibrosRepository repository, AutorRepository repositoryAutor) {
         this.repository = repository;
         this.repositoryAutor = repositoryAutor;
@@ -76,7 +76,8 @@ public class Principal {
                 .filter(l -> l.titulo().toUpperCase().contains(buscaLibro.toUpperCase()))
                 .findFirst();
 
-            //Analisa respuesta de consulta. si ecuentra coincidencia lo procesa, sino informa que no encontro el libro
+            //Analisa respuesta de consulta. si ecuentra coincidencia lo procesa, 
+            //sino informa que no encontro el libro
         if (libroBuscado.isPresent()) {
             DatosLibros datosLibros = libroBuscado.get();
             DatosAutor datosAutor = datosLibros.autor().get(0);
