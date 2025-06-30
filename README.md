@@ -22,4 +22,3 @@ La aplicación permite consultar libros a través de la API Gutendex, almacenand
 - **Consulta de Autores por Año de Vida**: Búsqueda de autores que vivieron en un año específico.
 - **Gestión de Excepciones**: Manejo de excepciones durante las consultas a la API.
 - **Manejo de Errores**: Gestión de errores y consultas fallidas, incluyendo notificaciones al usuario.
-
