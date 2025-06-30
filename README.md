@@ -14,10 +14,6 @@ Esta aplicación de consulta de libros es parte del programa de formación en Ba
 La aplicación permite consultar libros a través de la API Gutendex, almacenando los resultados en una base de datos relacional Postgres. Posteriormente, los libros pueden ser consultados según diferentes criterios: por título, autor, idioma o año de vida del autor. El sistema también gestiona excepciones durante las consultas a la API, notificando al usuario en casos de errores como la duplicación de entradas o la ausencia de resultados. Además, se asegura de que solo se ingresen caracteres numéricos cuando el menú requiere una selección numérica.
 </p>
 
-
-
-
-
 ## Funcionalidades del Proyecto
 
 - **Consulta de Libros**: Consumo de la API Gutendex para la consulta de libros.
