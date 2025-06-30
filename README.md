@@ -2,13 +2,9 @@
 
 ## ALURA | ORACLE
 
-
 <p align="center">
   <img src="https://imgs.search.brave.com/kXonsEkefeYy2eceR4JYwSmaZF72qclAm79pkQnRlQQ/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9wNC53/YWxscGFwZXJiZXR0/ZXIuY29tL3dhbGxw/YXBlci85MjAvODQy/LzMyNS9taW5pbWFs/aXNtLXZsYWRzdHVk/aW8tYm9va3MtYm9v/a3NoZWx2ZXMtd2Fs/bHBhcGVyLXByZXZp/ZXcuanBn">
 </p>
-
-
-
 
 ## Descripción del Proyecto
 
